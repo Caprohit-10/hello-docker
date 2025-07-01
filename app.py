@@ -1,1 +1,2 @@
-print("Hello rohit chaudhary Docker!")
+# app.py
+print("Hello from Docker!")
