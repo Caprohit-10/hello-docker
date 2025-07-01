@@ -20,7 +20,7 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}
 
       - name: Build Docker image
-        run: docker build -t yourusername/hello-world:latest .
+        run: docker build -t caprohit/hello-docker:latest .
 
       - name: Push Docker image
-        run: docker push yourusername/hello-world:latest
+        run: docker push caprohit/hello-docker:latest
